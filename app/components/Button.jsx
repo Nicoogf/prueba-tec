@@ -5,11 +5,11 @@ import { useMenuContext } from '../Context/MenuConext'
 
 
 const Button = () => {
-  const { toggleMenu, viewMenu } = useMenuContext()
+  const { toggleMenu } = useMenuContext()
 
   return (
-    <button className='bg-blue-600 p-2 rounded-xl' onClick={toggleMenu}> 
-      Seleccionar Columna 
+    <button className='bg-white text-black  p-2 rounded-xl my-4' onClick={toggleMenu}>
+      Seleccionar Columna
     </button>
   )
 }
